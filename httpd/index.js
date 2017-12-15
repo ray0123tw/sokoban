@@ -14,7 +14,7 @@
  * @param datatype - 回傳檔案內容的 Mine-Type
  * @returns {undefined}
  */
- let serve = (response, fname, datatype) => {
+ let serve = (response, fnam    e, datatype) => {
  let fs = require('fs');
 
  fs.readFile(fname, (err, data) => {
